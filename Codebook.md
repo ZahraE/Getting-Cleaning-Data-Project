@@ -1,10 +1,10 @@
 
 ##Codebook
-This codebook contains explanations and descriptions about the how the process of cleaning the data is done and also variables that the tidy data includes.
+This codebook contains explanations and descriptions about how the process of cleaning the data is done and also variables that the tidy data includes.
 ##The Data Source
 Raw dataset: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 Description of raw dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
-## Information about raw dataset
+## Information about Raw Dataset
 The raw dataset which its link is given above is a zip file that contains the following information:
 
 - 'README.txt' : Includes information about the dataset and its variables.
@@ -49,12 +49,10 @@ The following steps have been taken to clean up the raw dataset:
 The tudy dataset gotten from data cleaning process contains 180 rows and 68 columns. Columns indicate dataset variables and rows contain observations of each of those variables.
 
 ##Tidy Dataset Variables:
-
-  [1] "subject"
- - Integers from 1-30 indexing each of 30 volunteers   
- 
-  [2] "activity_name" 
- - Activities done by volunteers including WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
+[1] "subject" 
+- Integers from 1-30 indexing each of 30 volunteers   
+[2] "activity_name" 
+- Activities done by volunteers including WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
 
  ###The following variables contain the measurements on the mean for each measurement: 
  [3] "tBodyAcc-mean()-X"          
