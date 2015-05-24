@@ -125,11 +125,5 @@ The tidy dataset gotten from data cleaning process contains 180 rows and 68 colu
 [67] "fBodyBodyGyroMag-std()"     
 [68] "fBodyBodyGyroJerkMag-std()" 
 
-### ```run_analysis.R``` does the following to get the tidy dataset:
-- Loads ```plyr``` and ```data.table``` packages.
-- Reads "X_train.txt" , "X_test.txt" , "y_test.txt" , "y_train.txt" , "features.txt"  data
-- Merges test and train data
-- Extracts the mean and standard deviation column names.
-- Measures the mean of each variable for each activity and each subject.
 
 
