@@ -44,11 +44,19 @@ The following steps have been taken to clean up the raw dataset:
 - Step 3: Using descriptive activity names to name the activities in the data set
 - Step 4: Appropriately labeling the data set with descriptive variable names. 
 - Step 5: Creating a second, independent tidy data set with the average of each variable for each activity and each subject from the data set in step 4.
-## Tidy Dataset
-The tudy dataset gotten from data cleaning process contains 180 rows and 68 columns. Columns indicate dataset variables which are as follows:
 
- [1] "subject"                    
- [2] "activity_name"              
+## Tidy Dataset
+The tudy dataset gotten from data cleaning process contains 180 rows and 68 columns. Columns indicate dataset variables and rows contain observations of each of those variables.
+
+##Tidy Dataset Variables:
+
+  [1] "subject"
+ - Integers from 1-30 indexing each of 30 volunteers   
+ 
+  [2] "activity_name" 
+ - Activities done by volunteers including WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
+
+ ###The following variables contain the measurements on the mean for each measurement: 
  [3] "tBodyAcc-mean()-X"          
  [4] "tBodyAcc-mean()-Y"          
  [5] "tBodyAcc-mean()-Z"          
@@ -82,6 +90,8 @@ The tudy dataset gotten from data cleaning process contains 180 rows and 68 colu
 [33] "fBodyBodyAccJerkMag-mean()" 
 [34] "fBodyBodyGyroMag-mean()"    
 [35] "fBodyBodyGyroJerkMag-mean()"
+
+###The following variables contain the measurements on the standard deviation for each measurement: 
 [36] "tBodyAcc-std()-X"           
 [37] "tBodyAcc-std()-Y"           
 [38] "tBodyAcc-std()-Z"           
