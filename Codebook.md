@@ -1,6 +1,6 @@
 
 ##Codebook
-This codebook contains explanations and descriptions about how the process of cleaning the data is done and also variables that the tidy data includes.
+This codebook contains explanations and descriptions about how the process of cleaning the data has been done and also variables that the tidy data includes.
 ##The Data Source
 Raw dataset: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 Description of raw dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
@@ -46,7 +46,7 @@ The following steps have been taken to clean up the raw dataset:
 - Step 5: Creating a second, independent tidy data set with the average of each variable for each activity and each subject from the data set in step 4.
 
 ## Tidy Dataset
-The tudy dataset gotten from data cleaning process contains 180 rows and 68 columns. Columns indicate dataset variables and rows contain observations of each of those variables.
+The tidy dataset gotten from data cleaning process contains 180 rows and 68 columns. Columns indicate dataset variables and rows contain observations for each of those variables.
 
 ##Tidy Dataset Variables:
 
@@ -125,3 +125,12 @@ The tudy dataset gotten from data cleaning process contains 180 rows and 68 colu
 [66] "fBodyBodyAccJerkMag-std()"  
 [67] "fBodyBodyGyroMag-std()"     
 [68] "fBodyBodyGyroJerkMag-std()" 
+
+### ```run_analysis.R``` does the following to get the tidy dataset:
+Loads ```plyr``` and ```data.table``` packages.
+Reads "X_train.txt" , "X_test.txt" , "y_test.txt" , "y_train.txt" , "features.txt"  data
+Merges test and train data
+Extracts the mean and standard deviation column names.
+
+
+
