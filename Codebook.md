@@ -49,8 +49,10 @@ The following steps have been taken to clean up the raw dataset:
 The tudy dataset gotten from data cleaning process contains 180 rows and 68 columns. Columns indicate dataset variables and rows contain observations of each of those variables.
 
 ##Tidy Dataset Variables:
+
 [1] "subject" 
-- Integers from 1-30 indexing each of 30 volunteers   
+- Integers from 1-30 indexing each of 30 volunteers  
+
 [2] "activity_name" 
 - Activities done by volunteers including WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
 
