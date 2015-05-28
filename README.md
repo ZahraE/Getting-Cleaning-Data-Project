@@ -17,7 +17,7 @@
 - 1- Download the raw dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip link.
 - 2- Unzip the downloaded file. After that, you should have a folder named "UCI HAR Dataset".
 - 3- Put ```run_analysis.R``` in the same directory as "UCI HAR Dataset" folder. Using the code  ```setwd()``` set that directory as your working directory in R or RStudio. 
-- 4- Run ```source("run_analysis.R")``` in R or RStudio, then it'11 create a text file named tidy.txt in your working directory which contains the tidy data.  
+- 4- Run ```source("run_analysis.R")``` in R or RStudio, then it'll create a text file named tidy.txt in your working directory which contains the tidy data.  
 
  ### To read the tidy data created by ```run_analysis.R``` into R or RStudio run the following code:
 - ```library(data.table)```
