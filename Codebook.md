@@ -38,17 +38,17 @@ This data set includes variables and information about experiments that have bee
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
 
 ## Data Cleaning Process
-The following steps have been taken to clean up the raw dataset:
+The following steps have been taken to clean up the raw data set:
 - Step 1: Merging the training and the test sets to create one data set.
 - Step 2: Extracting only the measurements on the mean and standard deviation for each measurement. 
 - Step 3: Using descriptive activity names to name the activities in the data set
 - Step 4: Appropriately labeling the data set with descriptive variable names. 
 - Step 5: Creating a second, independent tidy data set with the average of each variable for each activity and each subject from the data set in step 4.
 
-## Tidy Dataset
+## Tidy Data set
 The tidy dataset gotten from data cleaning process contains 180 rows and 68 columns. Columns indicate dataset variables and rows contain observations for each of those variables.
 
-###Tidy Dataset Variables:
+###Tidy Data set Variables:
 [1] "subject" 
 - Integers from 1-30 indexing each of 30 volunteers  
 
