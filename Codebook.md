@@ -46,7 +46,7 @@ The following steps have been taken to clean up the raw data set:
 - Step 5: Creating a second, independent tidy data set with the average of each variable for each activity and each subject from the data set in step 4.
 
 ## Tidy Data set
-The tidy dataset gotten from data cleaning process contains 180 rows and 68 columns. Columns indicate dataset variables and rows contain observations for each of those variables.
+The tidy data set gotten from data cleaning process contains 180 rows and 68 columns. Columns indicate data set variables and rows contain observations for each of those variables.
 
 ###Tidy Data set Variables:
 [1] "subject" 
