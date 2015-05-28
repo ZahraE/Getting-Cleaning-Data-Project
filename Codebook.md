@@ -90,7 +90,7 @@ The tidy dataset gotten from data cleaning process contains 180 rows and 68 colu
 [34] "fBodyBodyGyroMag-mean()"    
 [35] "fBodyBodyGyroJerkMag-mean()"
 
-###The following variables contain contain the standard deviation of each measurement for each activity and each subject: 
+###The following variables contain the standard deviation of each measurement for each activity and each subject: 
 [36] "tBodyAcc-std()-X"           
 [37] "tBodyAcc-std()-Y"           
 [38] "tBodyAcc-std()-Z"           
