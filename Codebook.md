@@ -55,7 +55,7 @@ The tidy dataset gotten from data cleaning process contains 180 rows and 68 colu
 [2] "activity_name" 
 - Activities done by volunteers including WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
 
- ###The following variables contain the measurements on the mean for each measurement: 
+ ###The following variables contain the measurements on the mean for each activity and each subject: 
  [3] "tBodyAcc-mean()-X"          
  [4] "tBodyAcc-mean()-Y"          
  [5] "tBodyAcc-mean()-Z"          
@@ -90,7 +90,7 @@ The tidy dataset gotten from data cleaning process contains 180 rows and 68 colu
 [34] "fBodyBodyGyroMag-mean()"    
 [35] "fBodyBodyGyroJerkMag-mean()"
 
-###The following variables contain the measurements on the standard deviation for each measurement: 
+###The following variables contain the measurements on the standard deviation for each activity and each subject: 
 [36] "tBodyAcc-std()-X"           
 [37] "tBodyAcc-std()-Y"           
 [38] "tBodyAcc-std()-Z"           
